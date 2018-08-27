@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ForLoops
 	{
@@ -49,10 +50,28 @@ public class ForLoops
 			System.out.println(counter);
 		}
 		public static void showGeniusSix(){
-			
+			Scanner userInput = new Scanner(System.in);
+			System.out.println("Pick a lower bound");
+			int lowerBound = userInput.nextInt();
+			System.out.println("Pick an upper bound");
+			int upperBound = userInput.nextInt();
+			int counter = 0;
+			for (;lowerBound <= upperBound; lowerBound++){
+				counter = counter + lowerBound;
+			}
+			System.out.println(counter);
 		}
 		public static void showGeniusSeven(){
-			
+			Scanner userInput = new Scanner(System.in);
+			System.out.println("Pick a lower bound");
+			int lowerBound = userInput.nextInt();
+			System.out.println("Pick an upper bound");
+			int upperBound = userInput.nextInt();
+			int counter = 0;
+			for (;lowerBound <= upperBound; lowerBound++){
+				counter = counter + lowerBound;
+			}
+			System.out.println(counter);
 		}
 		public static void showGeniusEight(){
 			
