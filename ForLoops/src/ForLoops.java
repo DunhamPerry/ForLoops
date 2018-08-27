@@ -5,14 +5,15 @@ public class ForLoops
 
 		public static void main(String[] args)
 			{
-				//showGeniusOne();
-				//System.out.println();
-				//showGeniusTwo();
-				//System.out.println();
-				//showGeniusThree();
-				//System.out.println();
-				//showGeniusFour();
-				//System.out.println();
+				showGeniusOne();
+				System.out.println();
+				showGeniusTwo();
+				System.out.println();
+				showGeniusThree();
+				System.out.println();
+				System.out.println();
+				showGeniusFour();
+				System.out.println();
 				showGeniusFive();
 				System.out.println();
 				showGeniusSix();
@@ -69,12 +70,19 @@ public class ForLoops
 			int upperBound = userInput.nextInt();
 			int counter = 0;
 			for (;lowerBound <= upperBound; lowerBound++){
+				if (lowerBound % 3 == 0){
 				counter = counter + lowerBound;
+				}
+				else{}
 			}
 			System.out.println(counter);
 		}
 		public static void showGeniusEight(){
-			
+			System.out.println("*********");
+			for (int i = 0; i <= 7; i++){
+				System.out.println("*       *");
+			}
+			System.out.println("*********");
 		}
 
 	}
