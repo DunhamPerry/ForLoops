@@ -79,7 +79,7 @@ public class ForLoops
 		}
 		public static void showGeniusEight(){
 			System.out.println("*********");
-			for (int i = 0; i <= 7; i++){
+			for (int i = 0; i < 7; i++){
 				System.out.println("*       *");
 			}
 			System.out.println("*********");
